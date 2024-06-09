@@ -1,5 +1,6 @@
 import secrets
 
+
 def xor_bytes(b1, b2):
     """Выполняет побитовое исключающее ИЛИ для двух байтовых строк."""
     return bytes(x ^ y for x, y in zip(b1, b2))
